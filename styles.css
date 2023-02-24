@@ -8,4 +8,16 @@ body{
 .jumbotron{
     background-color: black !important;
     color: antiquewhite !important;
+    border: 4px steelblue solid;
+    border-radius: 20px;
+}
+a{
+    font-size: larger;
+    color: aquamarine;
+}
+a:hover{
+    color:steelblue
+}
+a:visited{
+    color: blue;
 }
