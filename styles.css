@@ -1,4 +1,11 @@
 body{
-    font-family: sans-serif;
-    background-color: aquamarine;
+    font-family: sans-serif !important;
+    background-color: #F2F2F2  !important;
+    color: black !important;
+    text-align: center;
+    font-size: larger;
+}
+.jumbotron{
+    background-color: black !important;
+    color: antiquewhite !important;
 }
