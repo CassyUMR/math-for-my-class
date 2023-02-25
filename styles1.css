@@ -2,7 +2,6 @@ body{
     font-family: sans-serif !important;
     background-color: #F2F2F2  !important;
     color: black !important;
-    text-align: center;
     font-size: larger;
 }
 .jumbotron{
@@ -11,17 +10,21 @@ body{
     border: 4px steelblue solid;
     border-radius: 20px;
 }
-a{
+.a{
     font-size: larger;
-    color:steelblue
-}
-a:hover{
     color: aquamarine;
 }
-a:visited{
+.a:hover{
     color:steelblue
-
+}
+.a:visited{
+    color: aquamarine;
 }
 u{
     color: red;
+}
+#ce{
+    text-align: center;
+    text-decoration: underline;
+    color:steelblue !important;
 }

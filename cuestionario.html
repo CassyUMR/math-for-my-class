@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es-MX">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+        integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <title>PRACTICA #1 ; TEMA #1 </title>
+</head>
+
+<body>
+    <h3 id="ce"><i class="fa fa-home"><a href="index.html">Volver a la pagina principal</a></i></h3><br>
+
+    <!--titulo-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center;">Practica de Mate #1 </h1><br>
+            </div>
+        </div>
+    </div>
+
+    <!--Preguntas-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <h2>Primer Practica de Mate, Tema : Numeros reales</h2><br>
+                    <h3>Clasifique en Numeros Racionales e Irracionales</h3><br><br>
+                    <p><strong>1- 3,14168756... </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta1" id="p11"> Racional</li>
+                        <li><input type="radio" name="pregunta1" id="t0"> Irracional</li>
+
+                    </ol>
+                    <p><strong>2- 11,345 </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta2" id="t1"> Racional</li>
+                        <li><input type="radio" name="pregunta2" id="p24"> Irracional</li>
+                    </ol>
+                    <p><strong>3- 32,1234765...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta3" id="p33"> Racional</li>
+                        <li><input type="radio" name="pregunta3" id="t2"> Irracional</li>
+                    </ol>
+                    <p><strong>4- 12, 8934563...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta4" id="p41"> Racional</li>
+                        <li><input type="radio" name="pregunta4" id="t3"> Irracional</li>
+
+                    </ol>
+                    <p><strong>5- 1,001101100111...</strong></p>
+                    <ol type="A">
+
+                        <li><input type="radio" name="pregunta5" id="p52"> Racional</li>
+                        <li><input type="radio" name="pregunta5" id="t4"> Irracional </li>
+                    </ol>
+                    <p><strong>6- 7, 898989...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta6" id="t5"> Racional</li>
+                        <li><input type="radio" name="pregunta6" id="p62"> Irracional</li>
+
+                    </ol>
+                    <p><strong>7- 11,78623...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta7" id="p71"> Racional </li>
+                        <li><input type="radio" name="pregunta7" id="t6"> Irracional</li>
+
+                    </ol>
+                    <p><strong>8- 9,878787...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta8" id="t7"> Racional</li>
+                        <li><input type="radio" name="pregunta8" id="p82"> Irracional</li>
+
+                    </ol>
+                    <p><strong>9- -0,8976423...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta9" id="p91"> Racional</li>
+                        <li><input type="radio" name="pregunta9" id="t8"> Irracional</li>
+                    </ol>
+                    <p><strong>10- 45,989898...</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta10" id="t9"> Racional</li>
+                        <li><input type="radio" name="pregunta10" id="p02"> Irracional</li>
+
+                    </ol>
+                    <hr />
+                    <button type="button" class="btn btn-primary" onclick="resultado()">Calificar</button>
+                    <hr />
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="jumbotron" id="footer">
+        <h2>Echo por Isaac Bolaños/CassyUMR</h2>
+        <h3>Redes sociales:</h3>
+        <a href="https://www.instagram.com/isa_ac081117/?next=%2F" target="_blank" class="a"><i
+                class="fa fa-instagram">isa_ac081117</i></a><br>
+        <a href="https://www.facebook.com/Cassy.ddl" target="_blank" class="a"><i class="fa fa-facebook-square"></i>Cassy
+            Ddl</a><br>
+        <h3>Otros proyectos : </h3>
+        <a href="#"><i class="fa fa-github-square" class="a"></i>CassyUMR</a><br>
+        <h3>¿Quieres una pagina web? Contactame a mi correo:</h3>
+        <p>Mabrismacr@outlook.com</p>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!--Llamada al script de respuestas-->
+    <script src="respuestas.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+        integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
