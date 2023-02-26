@@ -32,3 +32,10 @@ u{
     text-align: left;
     font-size: x-large;
 }
+nav.navbar {
+    background-color: #CC1414;
+}
+.logo{
+width: 50px;
+height: 50px;
+}
