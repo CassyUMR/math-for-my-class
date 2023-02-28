@@ -5,18 +5,44 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/styles1.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-
+    <link rel="stylesheet" href="../css/styles1.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <title>PRACTICA #1 ; TEMA #1 </title>
 </head>
 
 <body>
-    <h3 id="ce"><i class="fa fa-home"><a href="index.html">Volver a la pagina principal</a></i></h3><br>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Easy math</a>
+        </div>
+
+        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+       otro elemento que se pueda ocultar al minimizar la barra -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="html/Temas.html">Temas</a></li>
+                <li><a href="html/sub-temas.html">Sub-Temas</a></li>
+                <li><a href="html/culcc.html">Como usar la calculadora cientifica</a></li>
+                <li><a href="html/future.html">Practicas</a></li>
+            </ul>
+            </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="html/future.html">Contactame</a></li>
+                <li><a href="html/future.html">Más sobre mí</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h3 id="ce"><i class="fa fa-home"><a href="../index.html">Volver a la pagina principal</a></i></h3><br>
     <!--titulo-->
     <div class="container">
         <div class="row">
@@ -115,9 +141,7 @@
     </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!--Llamada al script de respuestas-->
-    <script src="js/respuestas.js"></script>
+    <script src="../js/respuestas.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
