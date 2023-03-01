@@ -1,15 +1,29 @@
 body{
-    font-family: sans-serif !important;
-    background-color: #F2F2F2  !important;
-    color: black !important;
+
+    font-family: Andale Mono !important;
+    background-color: #808080  !important;
+    color: rgb(0, 0, 0) !important;
     text-align: center;
     font-size: larger;
 }
+.panel-heading{
+    background-color: rgb(122, 122, 122) !important;
+    color: cornflowerblue;
+
+}
+.panel-body{
+    background-color: rgba(103, 209, 245, 0.799) !important;
+
+}
+.hr{
+    border: rgb(35, 35, 35) solid 4px;
+    border-radius: 14px;
+}
 .jumbotron{
     background-color: black !important;
-    color: antiquewhite !important;
-    border: 4px steelblue solid;
-    border-radius: 20px;
+    color: deepskyblue !important;
+    border: 8px steelblue solid;
+    border-radius: 16px !important;
 }
 a{
     font-size: larger;
@@ -41,4 +55,7 @@ nav {
 }
 .anv{
     color: skyblue !important
+}
+.practice{
+    color: #FFFFFF !important;
 }
