@@ -1,74 +1,70 @@
-body {
+body{
 
-    font-family: arial black !important;
-    background-color: #808080 !important;
+    font-family: Andale Mono !important;
+    background-color: #dcdcdc  !important;
     color: rgb(0, 0, 0) !important;
-    text-align: left;
     font-size: larger;
 }
-
-.panel-heading {
+#ce{
+    text-align: center;
+}
+.but{
+    background-color: #333333 !important;
+    color: aqua !important;
+    border: #000000 solid 6px !important;
+    border-radius: 20px;
+    text-decoration: underline deepskyblue !important;
+}
+.panel-heading{
     background-color: rgb(122, 122, 122) !important;
     color: cornflowerblue;
-
 }
-
-.panel-body {
+.panel-body{
     background-color: rgba(103, 209, 245, 0.799) !important;
 
 }
-
-.hr {
+.hr{
     border: rgb(35, 35, 35) solid 4px;
     border-radius: 14px;
 }
-
-.jumbotron {
+.jumbotron{
     background-color: black !important;
     color: deepskyblue !important;
     border: 8px steelblue solid;
     border-radius: 16px !important;
+    text-align: center;
 }
-
-a {
+a{
     font-size: larger;
-    color: steelblue
+    color:steelblue
 }
-
-a:hover {
+a:hover{
     color: aquamarine;
 }
+a:visited{
+    color:steelblue
 
-a:visited {
-    color: steelblue
 }
-
-u {
+u{
     color: red;
 }
-
-.es {
+.es{
     font-size: x-large;
 }
-
-.gol {
+.gol{
     text-align: left;
     font-size: x-large;
 }
-
 nav {
     background-color: #333333 !important;
-
+    
 }
-
-.title {
+.title{
     color: deepskyblue !important;
 }
-
-.anv {
+.anv{
     color: skyblue !important
 }
-
-.practice {
+.practice{
     color: #FFFFFF !important;
 }

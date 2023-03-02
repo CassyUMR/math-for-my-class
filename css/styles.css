@@ -6,10 +6,16 @@ body{
     text-align: center;
     font-size: larger;
 }
+.but{
+    background-color: #333333 !important;
+    color: aqua !important;
+    border: #000000 solid 6px !important;
+    border-radius: 20px;
+    text-decoration: underline deepskyblue !important;
+}
 .panel-heading{
     background-color: rgb(122, 122, 122) !important;
     color: cornflowerblue;
-
 }
 .panel-body{
     background-color: rgba(103, 209, 245, 0.799) !important;
