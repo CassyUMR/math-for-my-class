@@ -1,0 +1,38 @@
+body{
+    background-color: darkgrey !important;
+    font-size: x-large !important;
+}
+.jumbotron{
+    background-color: deepskyblue !important;
+}
+.content{
+    color: #515151 !important;
+
+}
+nav {
+    background-color: #333333 !important;
+}
+.title{
+    color: deepskyblue !important;
+}
+.anv{
+    color: skyblue !important
+}
+#content{
+    text-align: center;
+    font-size: xx-large;
+}
+.panel-heading{
+    background-color:dimgrey !important;
+    font-style: italic;
+}
+.panel-body{
+    background-color:rgb(245, 202, 203);
+    font-style: italic;
+}
+li{
+    color: rgb(234, 0, 255);
+}
+h3{
+    color: #333333;
+}
