@@ -65,3 +65,13 @@ nav {
 .practice{
     color: #FFFFFF !important;
 }
+img.contain{
+    object-fit: contain;
+  }  
+img.cover{
+    object-fit: cover;
+  }
+img{
+    height: 400px; 
+    width: 450px;
+}
