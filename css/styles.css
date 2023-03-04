@@ -27,7 +27,7 @@ body{
 }
 .jumbotron{
     background-color: black !important;
-    color: deepskyblue !important;
+    color: skyblue !important;
     border: 8px steelblue solid;
     border-radius: 16px !important;
 }
