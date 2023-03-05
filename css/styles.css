@@ -62,14 +62,10 @@ nav {
 .anv{
     color: skyblue !important
 }
-
-img.contain{
-    object-fit: contain;
-  }  
-img.cover{
-    object-fit: cover;
-  }
 img{
-    height: 400px; 
-    width: 450px;
+    max-height: 350px; 
+    max-width: 350px;
+    object-fit: cover;
+    object-fit: contain;
+
 }
