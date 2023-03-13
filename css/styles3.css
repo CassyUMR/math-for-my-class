@@ -1,0 +1,72 @@
+body{
+
+    font-family: Andale Mono !important;
+    background-color: #dcdcdc  !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: x-large;
+    text-align: center;
+    margin: 0
+}
+#ce{
+    text-align: center;
+}
+.but{
+    background-color: #333333 !important;
+    color: aqua !important;
+    border: #000000 solid 6px !important;
+    border-radius: 20px;
+    text-decoration: underline deepskyblue !important;
+}
+.panel-heading{
+    background-color: rgb(122, 122, 122) !important;
+    color: cornflowerblue;
+}
+.panel-body{
+    background-color: rgba(103, 209, 245, 0.799) !important;
+
+}
+.hr{
+    border: rgb(35, 35, 35) solid 4px;
+    border-radius: 14px;
+}
+.jumbotron{
+    background-color: black !important;
+    color: deepskyblue !important;
+    border: 8px steelblue solid;
+    border-radius: 16px !important;
+    text-align: center;
+}
+a{
+    font-size: larger;
+    color:steelblue
+}
+a:hover{
+    color: aquamarine;
+}
+a:visited{
+    color:steelblue
+
+}
+u{
+    color: red;
+}
+.es{
+    font-size: x-large;
+}
+.gol{
+    text-align: left;
+    font-size: x-large;
+}
+nav {
+    background-color: #333333 !important;
+    
+}
+.title{
+    color: deepskyblue !important;
+}
+.anv{
+    color: skyblue !important
+}
+.practice{
+    color: #FFFFFF !important;
+}
